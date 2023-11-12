@@ -18,8 +18,8 @@ train:
   c_kl_audio: 0.05 # 0.05 Allow more audio variation. default: 1
 
 data:
-  training_files: datasets/custom_base/filelists/train.txt
-  validation_files: datasets/custom_base/filelists/val.txt
+  training_files: datasets/custom_base/filelists/train-emo.txt
+  validation_files: datasets/custom_base/filelists/val-emo.txt
   text_cleaners: # See text/cleaners.py
     - phonemize_text
     - add_spaces

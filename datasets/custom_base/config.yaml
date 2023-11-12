@@ -22,6 +22,7 @@ data:
   validation_files: datasets/custom_base/filelists/val.txt
   text_cleaners: # See text/cleaners.py
     - phonemize_text
+    - add_spaces
     - tokenize_text
     - add_bos_eos
   cleaned_text: true # True if you ran step 6.
